@@ -1,1 +1,17 @@
+# 1. Inicializa el repositorio si no lo has hecho
+git init
 
+# 2. Crea una carpeta para organizar (buena práctica)
+mkdir data
+
+# 3. Agrega el archivo específico o toda la carpeta
+git add data/Colección Ornitológica del IADIZA-CCT CONICET Mendoza IADIZA-COI.csv
+
+# 4. Guarda los cambios localmente
+git commit -m "Agregado dataset de alumnos para el ejercicio 1"
+
+# 5. Vincula tu repositorio remoto (solo la primera vez)
+git remote add origin https://github.com/tomasbadino7/TIP.git
+
+# 6. Sube los archivos a la nube
+git push -u origin main
