@@ -1,0 +1,4 @@
+mkdir ejemplo_python
+git init
+cd ejemplo_python
+
