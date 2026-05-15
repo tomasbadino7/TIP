@@ -214,3 +214,6 @@ _marimo_/
 
 #Exception License File
 !LICENSE.txt
+
+#Exception XML
+*.xml
